@@ -2,8 +2,8 @@ package postgres_example
 
 import (
 	"context"
+	"github.com/alexrios/ztests/postgres"
 	"testing"
-	"ztests/postgres"
 )
 
 func Test(t *testing.T) {
