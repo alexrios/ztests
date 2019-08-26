@@ -15,6 +15,8 @@ func Setup(t *testing.T) (db *sql.DB, teardown func()) {
 		if dbCtx.Conn != nil {
 			_ = dbCtx.Conn.Close()
 		}
-		_ = dbCtx.Container.Terminate(dbCtx.Ctx)
+		if dbCtx.Ctx != nil {
+			_ = dbCtx.Container.Terminate(dbCtx.Ctx)
+		}
 	}
 }
