@@ -60,5 +60,5 @@ If you have any questions or feedback regarding ztests, bring it!
 Your feedback is always welcome.
 
 #### Getting help?
-Hit me on twitter @alextrending!
+Hit me on twitter [@alextrending](https://twitter.com/alextrending)!
 
