@@ -5,7 +5,7 @@ Golang tests with containers without friction
 
 ## Getting started
 The purpose is to make testing docker containers easier without having to worry about managing them. 
-This lib joy should be as transparent as possible as calling a lib of unit tests.
+The main goal of this library is to be as transparent as possible when it comes to a simple suite of unit tests.
 
 To achieve this results this project uses [Test Containers Go](https://www.google.com) and
 [Canned Containers](https://github.com/alexrios/canned-containers)
