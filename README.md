@@ -43,12 +43,17 @@ func Test(t *testing.T) {
 ```
 
 ### TODO
-- [x] support for Postgres canned container 
-- [] support for Redis canned container 
-- [] support for Elastic Search canned container
-- [] support for MySQL Search canned container
-- [] support for nginx Search canned container
-- [] and many more...
+[x] support for Postgres canned container 
+
+[ ] support for Redis canned container 
+
+[ ] support for Elastic Search canned container
+
+[ ] support for MySQL Search canned container
+
+[ ] support for nginx Search canned container
+
+[ ] and many more...
 
 ## Contributing
 If you have any questions or feedback regarding ztests, bring it!
