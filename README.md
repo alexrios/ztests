@@ -22,10 +22,12 @@ import (
 	"github.com/alexrios/ztests/postgres"
 	"testing"
 )
+
 func Test(t *testing.T) {
-	db, teardown := postgres.Setup(t)
-	defer teardown()
-	conn, err := db.Conn(ctx := context.Background())
+	ctx := context.Background()
+	testEnv, err := postgres.Setup()
+	defer testEnv.Teardown()
+	conn, err := testEnv.DB.Conn(ctx)
 	if err != nil {
 		t.Fatal(err)
 	}
