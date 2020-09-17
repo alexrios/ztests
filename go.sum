@@ -45,6 +45,8 @@ github.com/Microsoft/hcsshim v0.8.6 h1:ZfF0+zZeYdzMIVMZHKtDKJvLHj76XCuVae/jNkjj0
 github.com/Microsoft/hcsshim v0.8.6/go.mod h1:Op3hHsoHPAvb6lceZHDtd9OkTew38wNoXnJs8iY7rUg=
 github.com/alexrios/canned-containers v0.2.2 h1:2ia2aQw2G8fz2lYZqf+4Z8ASXLiPgAIpNaj8YjGAiVE=
 github.com/alexrios/canned-containers v0.2.2/go.mod h1:BV1EpM0yxBwVaxLugpBmxxXzKpqFv8vbjV1aTuh9v9s=
+github.com/alexrios/canned-containers v0.2.3 h1:DaatuvvlGF+eArlqV9+pSxGJnMFBP/66jAe47h47xgU=
+github.com/alexrios/canned-containers v0.2.3/go.mod h1:BV1EpM0yxBwVaxLugpBmxxXzKpqFv8vbjV1aTuh9v9s=
 github.com/apache/arrow/go/arrow v0.0.0-20200601151325-b2287a20f230/go.mod h1:QNYViu/X0HXDHw7m3KXzWSVXIbfUvJqBFe6Gj8/pYA0=
 github.com/aws/aws-sdk-go v1.17.7/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/bitly/go-hostpool v0.0.0-20171023180738-a3a6125de932/go.mod h1:NOuUCSz6Q9T7+igc/hlvDOUdtWKryOrtFyIVABv/p7k=
