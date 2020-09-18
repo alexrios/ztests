@@ -16,7 +16,7 @@ This example has 3 easy steps:
 * `defer teardown()` to handle all the docker parts
 * The test itself 
 
-```
+```go
 import (
 	"context"
 	"github.com/alexrios/ztests/postgres"
