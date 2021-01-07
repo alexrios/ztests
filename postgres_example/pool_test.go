@@ -27,14 +27,14 @@ func TestPool(t *testing.T) {
 		}
 	})
 	t.Run("setup with migration", func(t *testing.T) {
-		testEnv, err := postgres.SetupPGX(postgres.Migrate("migrations"))
+		testEnv, err := postgres.Setup(postgres.Migrate("migrations"))
 		if err != nil {
 			t.Fatal(err)
 		}
 		defer testEnv.Teardown()
 
 		var id int64
-		row := testEnv.Pool.QueryRow(ctx, "insert into test (column2) values (13) returning column1")
+		row := testEnv.DB.QueryRow("insert into test (column2) values (13) returning column1")
 		err = row.Scan(&id)
 		if err != nil {
 			t.Fatal(err)
